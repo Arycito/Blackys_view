@@ -544,13 +544,13 @@
             navbar.classList.remove("into");
             navbar.classList.add("miss");
             setTimeout(() => {
-                navbar.style.transform = "translateY(-100%)"; 
+                navbar.style.display = "none"; 
             }, 300);            
             } else {        
             navbar.classList.remove("miss");
             navbar.classList.add("into");            
             setTimeout(() => {  
-                navbar.style.transform = "translateY(0)";              
+                navbar.style.display = "flex";              
             }, 300);                        
             }
     
